@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgba(222, 184, 135, .75);
-
+    font-family: 'Special Elite', cursive;
 }
 
 a:link {
@@ -17,28 +17,25 @@ a:visited {
     color: hotpink;
 }
 
-header {
-    display: flex;
+p {
+    font-size: large;
 }
 
-nav {
-    display:flex;
+header {
+    display: flex;
 }
 
 nav li {
     margin: 1%;
     padding: 1%;
-    justify-content: right;
 }
 
 li {
     display: flex;
-    justify-content: right;
 }
 
 ul {
     display: flex;
-    justify-content: center;
 }
 
 figure {
